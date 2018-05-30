@@ -3,7 +3,7 @@
  
 int main()
 {
-    FILE *fp = fopen("test.txt", "wx");
+    FILE *fp = fopen("gfile.txt", "wx");
     if (fp == NULL)
     {
         puts("Couldn't open file or file already exists");
